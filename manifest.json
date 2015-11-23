@@ -1,13 +1,14 @@
 {
+   "manifest_version": 2,
    "content_scripts": [ {
       "js": [ "addbutton.js" ],
-      "matches": [ "http://www.reddit.com/r/*" ]
+      "matches": [ "https://www.reddit.com/r/*" ]
    } ],
-   "description": "Adds a button to \"Load all comments\" in reddit.com",
+   "description": "Adds a button to \"Load all comments\" on reddit.com",
    "icons": {
       "128": "reddit_love.png"
    },
-   "name": "Reddit All Comments Viewer",
-   "permissions":  [ "http://www.reddit.com/*" ],
-   "version": "2.0"
+   "name": "Reddit All Comments Viewer Secure",
+   "permissions": [ "https://www.reddit.com/*" ],
+   "version": "2.0.1.0"
 }

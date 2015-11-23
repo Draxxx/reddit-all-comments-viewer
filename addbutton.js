@@ -1,6 +1,7 @@
 /*
 Author: Abhijeet Rastogi (shadyabhi)
 Email: abhijeet.1989@gmail.com
+Changed to HTTPS: Michal Turecki (turecki@gmail.com)
 */
 
 LoadAllComments = {
