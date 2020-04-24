@@ -7,7 +7,7 @@ Changed to HTTPS: Michal Turecki (turecki@gmail.com)
 LoadAllComments = {
     runAgain : function () {
     //Run every two seconds (API guidelines)
-        window.setTimeout(LoadAllComments.clickFirstButton, 2000);
+        window.setTimeout(LoadAllComments.clickFirstButton, 500);
     },
     clickFirstButton : function () {
         //All buttons have class as "button"
